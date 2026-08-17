@@ -10,7 +10,7 @@ export function Hero() {
     <section className="relative min-h-screen flex items-center overflow-hidden">
       <div className="absolute inset-0 grain">
         <Image
-          src="https://images.unsplash.com/photo-1558171813-4c088753af8f?w=1920&q=80"
+          src="/images/renovo/leather.jpg"
           alt="Текстура кожи"
           fill
           priority
@@ -79,7 +79,7 @@ export function Hero() {
           >
             <div className="img-reveal relative aspect-[4/5] overflow-hidden rounded-sm">
               <Image
-                src="https://images.unsplash.com/photo-1586281380349-632531db7e4f?w=800&q=80"
+                src="/images/renovo/folder-blue.jpg"
                 alt="Изделия RENOVO"
                 fill
                 className="object-cover"

@@ -16,7 +16,7 @@ export const categories = [
     description:
       "Адресные папки, меню, чек-буки и папки-боксы из натуральной и искусственной кожи, дизайнерского картона, ткани и бумаги.",
     image:
-      "https://images.unsplash.com/photo-1586281380349-632531db7e4f?w=1200&q=80",
+      "/images/renovo/folders.jpg",
     size: "large" as const,
   },
   {
@@ -26,7 +26,7 @@ export const categories = [
     description:
       "Упаковка для подарочных и фирменных изделий из кожи, дерева, картона — уникальные размеры и формы.",
     image:
-      "https://images.unsplash.com/photo-1549465220-1a8b9238cd48?w=1200&q=80",
+      "/images/renovo/boxes.jpg",
     size: "medium" as const,
   },
   {
@@ -36,7 +36,7 @@ export const categories = [
     description:
       "Экологичные изделия для идентификации бизнеса. Прочный, эстетичный материал с приятной текстурой.",
     image:
-      "https://images.unsplash.com/photo-1558171813-4c088753af8f?w=1200&q=80",
+      "/images/renovo/felt.jpg",
     size: "medium" as const,
     accent: true,
   },
@@ -47,7 +47,7 @@ export const categories = [
     description:
       "Сумки, картхолдеры, обложки, брелки и любая продукция из натуральной кожи — от простых до премиум.",
     image:
-      "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=1200&q=80",
+      "/images/renovo/leather.jpg",
     size: "large" as const,
   },
 ];
