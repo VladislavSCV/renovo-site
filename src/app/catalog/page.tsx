@@ -70,7 +70,7 @@ function CatalogContent() {
             {filtered.map((product, i) => (
               <Reveal key={product.slug} delay={i * 0.05}>
                 <Link href={`/catalog/${product.slug}`} className="group block">
-                  <div className="img-reveal relative aspect-[3/4] overflow-hidden rounded-sm bg-surface">
+                  <div className="img-reveal product-image relative aspect-[3/4] overflow-hidden rounded-sm">
                     <Image
                       src={product.image}
                       alt={product.name}

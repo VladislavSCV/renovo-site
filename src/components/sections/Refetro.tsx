@@ -11,7 +11,7 @@ export function Refetro() {
       <div className="absolute inset-0 bg-refetro" />
       <div className="absolute inset-0 opacity-20">
         <Image
-          src="https://images.unsplash.com/photo-1558171813-4c088753af8f?w=1920&q=80"
+          src="/images/renovo/felt.jpg"
           alt=""
           fill
           className="object-cover"
@@ -42,7 +42,7 @@ export function Refetro() {
             <div className="grid grid-cols-2 gap-4">
               <div className="img-reveal relative aspect-square overflow-hidden rounded-sm">
                 <Image
-                  src="https://images.unsplash.com/photo-1590874103328-eac38a683ce7?w=600&q=80"
+                  src="/images/renovo/felt-basket.jpg"
                   alt="Корзина из фетра"
                   fill
                   className="object-cover"
@@ -51,7 +51,7 @@ export function Refetro() {
               </div>
               <div className="img-reveal relative aspect-square overflow-hidden rounded-sm mt-8">
                 <Image
-                  src="https://images.unsplash.com/photo-1594223274512-ad4803739299?w=600&q=80"
+                  src="/images/renovo/felt-bag.jpg"
                   alt="Сумка из фетра"
                   fill
                   className="object-cover"

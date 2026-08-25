@@ -81,6 +81,15 @@ body {
   transition: transform 1.2s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
+.product-image {
+  background: linear-gradient(135deg, #f5f1eb, #e9e1d7);
+}
+
+.product-image img {
+  object-fit: contain;
+  padding: 1.5rem;
+}
+
 .img-reveal:hover img {
   transform: scale(1.04);
 }

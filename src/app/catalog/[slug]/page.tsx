@@ -45,7 +45,7 @@ export default async function ProductPage({ params }: ProductPageProps) {
           </Link>
 
           <div className="grid gap-12 lg:grid-cols-2 lg:gap-20">
-            <div className="img-reveal relative aspect-[4/5] overflow-hidden rounded-sm bg-surface">
+            <div className="img-reveal product-image relative aspect-[4/5] overflow-hidden rounded-sm">
               <Image
                 src={product.image}
                 alt={product.name}
@@ -108,7 +108,7 @@ export default async function ProductPage({ params }: ProductPageProps) {
                   href={`/catalog/${item.slug}`}
                   className="group block"
                 >
-                  <div className="img-reveal relative aspect-[3/4] overflow-hidden rounded-sm bg-surface">
+                  <div className="img-reveal product-image relative aspect-[3/4] overflow-hidden rounded-sm">
                     <Image
                       src={item.image}
                       alt={item.name}

@@ -31,7 +31,7 @@ export function Featured() {
                   href={`/catalog/${product.slug}`}
                   className="group block"
                 >
-                  <div className="img-reveal relative aspect-[3/4] overflow-hidden rounded-sm bg-white">
+                  <div className="img-reveal product-image relative aspect-[3/4] overflow-hidden rounded-sm">
                     <Image
                       src={product.image}
                       alt={product.name}

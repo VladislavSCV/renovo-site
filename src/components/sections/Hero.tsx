@@ -79,7 +79,7 @@ export function Hero() {
           >
             <div className="img-reveal relative aspect-[4/5] overflow-hidden rounded-sm">
               <Image
-                src="/images/renovo/folder-blue.jpg"
+                src="/images/renovo/folder-blue.jpg?v=2"
                 alt="Изделия RENOVO"
                 fill
                 className="object-cover"

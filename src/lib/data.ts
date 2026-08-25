@@ -16,7 +16,7 @@ export const categories = [
     description:
       "Адресные папки, меню, чек-буки и папки-боксы из натуральной и искусственной кожи, дизайнерского картона, ткани и бумаги.",
     image:
-      "/images/renovo/folders.jpg",
+      "/images/renovo/folders.jpg?v=2",
     size: "large" as const,
   },
   {
@@ -112,64 +112,56 @@ export const products = [
     name: "Адресная папка с тиснением",
     material: "Эко-кожа",
     category: "papki",
-    image:
-      "https://images.unsplash.com/photo-1586281380349-632531db7e4f?w=800&q=80",
+    image: "/images/renovo/folder-embossed.jpg",
   },
   {
     slug: "chek-buk-kozham",
     name: "Чек-бук из кожзама",
     material: "Эко-кожа",
     category: "papki",
-    image:
-      "https://images.unsplash.com/photo-1568992687947-868a62a9f521?w=800&q=80",
+    image: "/images/renovo/checkbook-leather.jpg",
   },
   {
     slug: "papka-menu-magnity",
     name: "Папка-меню на магнитах",
     material: "Кожзам",
     category: "papki",
-    image:
-      "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=800&q=80",
+    image: "/images/renovo/folder-paper.jpg",
   },
   {
     slug: "korzina-fetr",
     name: "Корзина из фетра",
     material: "Фетр · REFETRO",
     category: "refetro",
-    image:
-      "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?w=800&q=80",
+    image: "/images/renovo/felt-basket.jpg",
   },
   {
     slug: "vip-kalendar",
     name: "VIP-календарь",
     material: "Кожа · Бронза",
     category: "kozha",
-    image:
-      "https://images.unsplash.com/photo-1506784365847-bbad939e9335?w=800&q=80",
+    image: "/images/renovo/checkbook-black.jpg",
   },
   {
     slug: "kartkholder-kozha",
     name: "Картхолдер из кожи",
     material: "Натуральная кожа",
     category: "kozha",
-    image:
-      "https://images.unsplash.com/photo-1627123424574-724758594e93?w=800&q=80",
+    image: "/images/renovo/leather.jpg",
   },
   {
     slug: "papka-boks",
     name: "Папка-бокс для документов",
     material: "Кожзам · Картон",
     category: "papki",
-    image:
-      "https://images.unsplash.com/photo-1586953208448-b95a79798f07?w=800&q=80",
+    image: "/images/renovo/boxes.jpg",
   },
   {
     slug: "sumka-fetr",
     name: "Сумка из фетра",
     material: "Фетр · REFETRO",
     category: "refetro",
-    image:
-      "https://images.unsplash.com/photo-1594223274512-ad4803739299?w=800&q=80",
+    image: "/images/renovo/felt-bag.jpg",
   },
 ];
 

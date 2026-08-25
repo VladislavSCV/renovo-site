@@ -48,7 +48,7 @@ export function Craft() {
             <div className="relative">
               <div className="img-reveal relative aspect-[3/4] overflow-hidden rounded-sm">
                 <Image
-                  src="https://images.unsplash.com/photo-1452860606245-08befbf0d145?w=800&q=80"
+                  src="/images/renovo/folder-design.jpg?v=3"
                   alt="Производственный процесс"
                   fill
                   className="object-cover"
@@ -57,7 +57,7 @@ export function Craft() {
               </div>
               <div className="absolute -bottom-6 -left-6 hidden h-48 w-36 overflow-hidden rounded-sm lg:block">
                 <Image
-                  src="https://images.unsplash.com/photo-1568992687947-868a62a9f521?w=400&q=80"
+                  src="/images/renovo/checkbook-leather.jpg"
                   alt="Детали изделия"
                   fill
                   className="object-cover"
